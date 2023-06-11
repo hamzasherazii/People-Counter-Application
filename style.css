@@ -24,6 +24,12 @@ h2 {
     color: antiquewhite;
 }
 
+p{
+    padding: 10px;
+    color: white;
+    background-color: rgb(33, 21, 21);
+}
+
 button {
     border: none;
     padding-top: 10px;

@@ -14,5 +14,9 @@ function increment(){
     // console.log("The button was clicked!");
     count = count + 1;
     countEl.innerText = count;
+};
+
+
+function saveCount(){
     console.log(count);
 };

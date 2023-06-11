@@ -9,7 +9,6 @@ let saveEl = document.getElementById("save-el");
 console.log(countEl);
 
 let count = 0;
-
 function increment(){
     // console.log("The button was clicked!");
     count += 1;
@@ -19,6 +18,6 @@ function increment(){
 
 function saveCount(){
     let countStr = count + " - ";
-    saveEl.innerText += countStr;
+    saveEl.textContent += countStr;
     console.log(count);
 };
